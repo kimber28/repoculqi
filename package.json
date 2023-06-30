@@ -1,0 +1,28 @@
+{
+  "name": "cypress_ts_test03",
+  "version": "1.0.0",
+  "description": "prueba culqi",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run",
+    "cypress:runChrome": "cypress run --browser chrome"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "Kimberlin",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "typescript": "^4.5.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

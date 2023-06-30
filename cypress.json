@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://www.automationexercise.com/",
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity":false,
+    "video": false
+}
